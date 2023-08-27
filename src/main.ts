@@ -1,3 +1,3 @@
-export const  unixTime  = (...args: ConstructorParameters<DateConstructor>) => {
-  return Math.floor(new Date(...args).getTime() / 1000)
-}
+export const unixTime = () => {
+  return Math.floor(new Date().getTime() / 1000);
+};
